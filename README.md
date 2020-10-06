@@ -1,5 +1,5 @@
-# electron-pixijs-typescript and Spine(pixi-spine)
-Sample using Electron, Pixi.JS and Spine(pixi-spine) and TypeScript to make a game app that runs on browser and on desktop.  
+# electron-pixijs-typescript and spine(pixi-spine)
+Sample using Electron, Pixi.JS and Spine and TypeScript to make a game app that runs on browser and on desktop.  
 
 **DEMO**  
 Web:  
@@ -9,7 +9,6 @@ Web:
 Electron:  
 <img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_by_electron.jpg" width="50%">   
 
-
 **How to use it**  
 ```
 npm install
@@ -18,7 +17,7 @@ npm start
 ```
 You can also build your app to work on a web browser using `npm run web`.  
 
-update library(at 2020/10)  
+**Update library**(2020/10)  
 ~~~  
  @types/node              ^11.11.3  →  ^14.11.2
  @types/pixi.js             ^4.8.6  →    ^5.0.0
@@ -36,11 +35,14 @@ update library(at 2020/10)
  webpack-node-externals     ^1.7.2  →    ^2.5.2
  webpack-stream             ^5.2.1  →    ^6.1.0
  ~~~  
+ 
+ ---
 
 reference  
 
 **PixiJS Examples Pixie**  
 [https://pixijs.io/examples/#/plugin-spine/pixie.js](https://pixijs.io/examples/#/plugin-spine/pixie.js)  
+Uses background material and script, fairy is unused for spine ver 3.7.  
 
 **Example: Alien**  
 [http://ja.esotericsoftware.com/spine-examples-alien](http://ja.esotericsoftware.com/spine-examples-alien)  
@@ -58,5 +60,6 @@ Because spine ver 3.8 or higher is required.
 >Basic Example
 
 memo  
+
 erase glup lint...  
 nodeIntegration security ok?  
