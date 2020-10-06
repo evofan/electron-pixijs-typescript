@@ -16,23 +16,6 @@ const nodeExternals = require('webpack-node-externals');
 const appProject = gulpTs.createProject('tsconfig.json');
 const typeCheck = tslint.Linter.createProgram('tsconfig.json');
 
-gulp.task('lint', () => merge([
-	gulp.src('./src/**/*.ts')
-		.pipe(gulpTslint({
-			configuration: 'tslint.json',
-			formatter: 'prose',
-			program: typeCheck
-		}))
-		.pipe(gulpTslint.report()),
-	gulp.src('./app/**/*.ts')
-		.pipe(gulpTslint({
-			configuration: 'tslint.json',
-			formatter: 'prose',
-			program: typeCheck
-		}))
-		.pipe(gulpTslint.report())
-]));
-
 gulp.task('build', () => {
 	del.sync(['./build/**/*.*']);
 	gulp.src('./src/**/*.js')
@@ -74,7 +57,8 @@ gulp.task('build', () => {
 			},
 			externals: externals,
 			target: argv.web ? 'web' : 'electron-renderer',
-			devtool: 'inline-source-map'
+			devtool: 'eval-cheap-source-map',
+			// devtool: 'inline-source-map'
 		}, webpack))
 
 	return merge([
