@@ -48,6 +48,10 @@ Uses background material and script, fairy is unused for spine ver 3.7.
 [http://ja.esotericsoftware.com/spine-examples-alien](http://ja.esotericsoftware.com/spine-examples-alien)  
 Because spine ver 3.8 or higher is required.  
 
+or use other branch.  
+>PixiJS Spine plugin supports only format for Spine 3.8. Your model has version 3.3.07.  
+>Please look in pixi-spine repository README for another branch.  
+
 **electron 5.0.0 “Uncaught ReferenceError: require is not defined”**  
 [https://stackoverflow.com/questions/55093700/electron-5-0-0-uncaught-referenceerror-require-is-not-defined](https://stackoverflow.com/questions/55093700/electron-5-0-0-uncaught-referenceerror-require-is-not-defined)  
 >nodeIntegration: true
@@ -61,5 +65,5 @@ Because spine ver 3.8 or higher is required.
 
 memo  
 
-erase glup lint...  
-nodeIntegration security ok?  
+- erased glup lint...  
+- nodeIntegration security ok?  
