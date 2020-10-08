@@ -9,13 +9,23 @@ Web:
 Electron:  
 <img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_by_electron.jpg" width="50%">   
 
+Installer: Releases / dist_20201008.zip  
+<img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_exec.jpg" width="50%"> <img src="https://evofan.github.io/electron-pixijs-typescript/screenshot/pic_inst1.jpg" width="25%">      
+
 **How to use it**  
 ```
 npm install
 npm run build
 npm start
 ```
-You can also build your app to work on a web browser using `npm run web`.  
+You can also build your app to work on a web browser using  
+`npm run web`.  
+
+Make Installer  
+```
+npm i -g electron-builder
+electron-builder --win --x64
+```
 
 **Update library**(2020/10)  
 ~~~  
@@ -61,9 +71,13 @@ or use other branch.
 
 **pixijs/pixi-spine**  
 [https://github.com/pixijs/pixi-spine](https://github.com/pixijs/pixi-spine)  
->Basic Example
+>Basic Example  
+
+**Creating a desktop application from scratch with Electron and building / releasing it using electron-builder.**  
+E(lectronで1からデスクトップアプリを作り、electron-builderを使ってビルド・リリースするまで - Qiita)  
+[https://qiita.com/saki-engineering/items/203892838e15b3dbd300](https://qiita.com/saki-engineering/items/203892838e15b3dbd300)  
 
 memo  
 
-- erased glup lint...  
-- nodeIntegration security ok?  
+erased glup lint...  
+nodeIntegration security ok?  
