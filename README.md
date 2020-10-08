@@ -22,10 +22,8 @@ You can also build your app to work on a web browser using
 `npm run web`.  
 
 Make Installer  
-```
-npm i -g electron-builder
-electron-builder --win --x64
-```
+`npm i -g electron-builder`  
+`electron-builder --win --x64`  
 
 **Update library**(2020/10)  
 ~~~  
@@ -74,10 +72,9 @@ or use other branch.
 >Basic Example  
 
 **Creating a desktop application from scratch with Electron and building / releasing it using electron-builder.**  
-E(lectronで1からデスクトップアプリを作り、electron-builderを使ってビルド・リリースするまで - Qiita)  
+(Electronで1からデスクトップアプリを作り、electron-builderを使ってビルド・リリースするまで - Qiita)  
 [https://qiita.com/saki-engineering/items/203892838e15b3dbd300](https://qiita.com/saki-engineering/items/203892838e15b3dbd300)  
 
 memo  
-
 erased glup lint...  
 nodeIntegration security ok?  
