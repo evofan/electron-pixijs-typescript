@@ -18,8 +18,8 @@ npm install
 npm run build
 npm start
 ```
-You can also build your app to work on a web browser using  
-`npm run web`.  
+You can also build your app to work on a web browser using.  
+`npm run web`  
 
 Make Installer  
 `npm i -g electron-builder`  
