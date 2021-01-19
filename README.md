@@ -25,6 +25,20 @@ Make Installer
 `npm i -g electron-builder`  
 `electron-builder --win --x64`  
 
+ **Update library**(2021/01)  
+~~~  
+ @types/node        ^14.11.2  →  ^14.14.21
+ electron            ^10.1.3  →    ^11.2.0
+ gulp-sourcemaps      ^2.6.5  →     ^3.0.0
+ pixi-spine          ^2.1.10  →    ^2.1.11
+ pixi.js              ^5.3.3  →     ^5.3.7
+ source-map-loader    ^1.0.0  →     ^2.0.0
+ ts-loader            ^8.0.4  →    ^8.0.14
+ typescript           ^4.0.3  →     ^4.1.3
+ webpack             ^4.44.2  →    ^5.15.0
+ webpack-stream       ^6.1.0  →     ^6.1.1
+ ~~~  
+
 **Update library**(2020/10)  
 ~~~  
  @types/node              ^11.11.3  →  ^14.11.2
